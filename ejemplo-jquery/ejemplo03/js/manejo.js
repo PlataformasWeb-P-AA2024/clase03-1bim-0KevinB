@@ -17,9 +17,10 @@ $(document).ready(function() {
       $('#nombreUniversidad').css( "color", "green" );
   });
 
+    // Al realizar un hover cambia el color de bg
   $("#nombreUniversidad").on( "mouseover", function() {
       $('#nombreUniversidad').css( "color", "black" );
-      $('body').css( "background", "black" );
+      $('body').css( "background", "pink" );
   });
 
 
